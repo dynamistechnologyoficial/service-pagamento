@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "baseName": "ServicePagamento",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entity-audit",
+        "version": "5.8.1"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "no",
+    "clientTestFrameworks": null,
+    "clientTheme": null,
+    "creationTimestamp": 1739060535865,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": null,
+    "enableTranslation": true,
+    "entities": ["Pessoa"],
+    "feignClient": true,
+    "jhipsterVersion": "8.9.0",
+    "jwtSecretKey": "OGM2NTFlOGZmNjY1NzI5YzkwM2IwNDVmY2I0YWE1YTZjOTIzYmFmYmJjZDI5MjhiY2UyMjVlYjBiNmIwMDBiNzUwYjAwNTk1NGQxMGU2YTlhMmRjNjViOTlkMGY1NmM0ZmY5NTMzNzQzNTdkMTQ2ZTkyMThmYzgxODMyN2ZiMDA=",
+    "languages": ["pt-br", "en", "es"],
+    "lastLiquibaseTimestamp": 1739147436000,
+    "microfrontend": null,
+    "microfrontends": [],
+    "nativeLanguage": "pt-br",
+    "packageName": "com.banco.pagamento.br",
+    "prodDatabaseType": "mysql",
+    "reactive": false,
+    "serverPort": 8081,
+    "serviceDiscoveryType": "consul",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "syncUserWithIdp": true,
+    "testFrameworks": ["cucumber"],
+    "withAdminUi": null
+  },
+  "generator-jhipster-entity-audit": {
+    "auditFramework": "custom",
+    "entityAuditEventChangelogDate": "20250210003036"
+  }
+}
