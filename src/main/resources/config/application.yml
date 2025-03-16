@@ -166,11 +166,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:8080/realms/bancodigital
+            issuer-uri: http://100.103.147.8:8080/realms/dynamisbank
         registration:
           oidc:
             client-id: bcpagamento
-            client-secret: 8zUFr80mNEBzsAqMq3dkNoprgZX3mwk4
+            client-secret: cBtRoBBvsnx8SQam1Q4AF40nAVouwbKU
             scope: openid, profile, email, offline_access # last one for refresh tokens
   task:
     execution:
