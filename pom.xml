@@ -901,9 +901,9 @@
             <properties>
                 <!-- default Spring profiles -->
 <!--                <liquibase-plugin.password/>-->
-                <liquibase-plugin.url>jdbc:mysql://localhost:3306/pagamento</liquibase-plugin.url>
-                <liquibase-plugin.username>root</liquibase-plugin.username>
-                <liquibase-plugin.password>12345</liquibase-plugin.password>
+                <liquibase-plugin.url>jdbc:mysql://100.103.147.8:3306/pagamento</liquibase-plugin.url>
+                <liquibase-plugin.username>bdpagamento</liquibase-plugin.username>
+                <liquibase-plugin.password>Pag1603#dv25@</liquibase-plugin.password>
                 <profile.test>test,testdev</profile.test>
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
             </properties>
